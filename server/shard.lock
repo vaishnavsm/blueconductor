@@ -1,0 +1,42 @@
+version: 2.0
+shards:
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.10.1
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.1.5
+
+  granite:
+    git: https://github.com/amberframework/granite.git
+    version: 0.23.0
+
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 1.0.0
+
+  kilt:
+    git: https://github.com/jeromegn/kilt.git
+    version: 0.4.1
+
+  micrate:
+    git: https://github.com/amberframework/micrate.git
+    version: 0.11.0
+
+  mysql:
+    git: https://github.com/crystal-lang/crystal-mysql.git
+    version: 0.13.0
+
+  pg:
+    git: https://github.com/will/crystal-pg.git
+    version: 0.23.2
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
+
+  sqlite3:
+    git: https://github.com/crystal-lang/crystal-sqlite3.git
+    version: 0.18.0
+
