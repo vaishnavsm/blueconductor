@@ -3,6 +3,11 @@ require "../models/device"
 require "../models/connected"
 
 
+class Controller
+  
+end
+
+connected_map = Hash(string, Controller) # User -> Controller
 
 def join(host : Host, connected_to )
   true
@@ -21,4 +26,16 @@ def disconnect(host : Host, device : Device)
   else
     true
   end
+end
+
+def register_host(host : Host, socket : Http::WebSocket)
+
+end
+
+def on_host_event(host : Host, message : String)
+
+end
+
+def close_host(host : Host, socket : Http::WebSocket)
+
 end

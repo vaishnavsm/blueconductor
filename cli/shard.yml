@@ -1,0 +1,13 @@
+name: cli
+version: 0.1.0
+
+authors:
+  - Vaishnav S Menon <vaishnavsm@gmail.com>
+
+targets:
+  cli:
+    main: src/cli.cr
+
+crystal: 1.1.1
+
+license: MIT
